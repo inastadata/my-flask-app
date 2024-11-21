@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello automated deployment! pakai webook"
+    return "success webhook automation deployment"
 
 if __name__ == "__main__":
     app.run(debug=True)
